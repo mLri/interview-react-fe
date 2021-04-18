@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+}
+
+.nav__logo {
+  font-size: 1.5rem;
+}
+
+.nav__login {
+  text-align: right;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.login:hover {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.logout:hover {
+  cursor: pointer;
+  font-size: 14px;
+}

@@ -1,0 +1,19 @@
+.paginate__container {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.paginate {
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid green;
+}
+
+.paginate:hover {
+  background-color: #03c08e;
+}
+
+.paginate.active {
+  background-color: #03c08e;
+}

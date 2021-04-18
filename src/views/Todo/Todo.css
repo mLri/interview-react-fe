@@ -1,0 +1,19 @@
+.list__container {
+  width: 30%;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.list__title {
+  background-color: #1565c0;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.list__item {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  padding: 20px;
+
+}

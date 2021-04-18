@@ -1,0 +1,62 @@
+.card__container {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #69f0ae;
+  background-color: #69f0ae;
+  text-align: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.del__card {
+  position: relative;
+  width: 100%;
+  text-align: right;
+}
+
+.del__card__btn {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #e20044;
+  background-color: #e20044;
+  color: #ffffff;
+  position: absolute;
+  top: -17px;
+  right: -18px;
+}
+
+.del__card__btn:hover{
+  cursor: pointer;
+  background-color: #f50e54;
+}
+
+.del__card__btn:focus {
+  outline: none;
+}
+
+.edit__card__btn {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #003c8f;
+  background-color: #003c8f;
+  color: #ffffff;
+  position: absolute;
+  top: -17px;
+  right: 10px;
+}
+
+.edit__card__btn:hover{
+  cursor: pointer;
+  background-color: #004ebb;
+}
+
+.edit__card__btn:focus {
+  outline: none;
+}
+
+.card__completed {
+  border-left: 10px solid green;
+}

@@ -1,0 +1,22 @@
+.btn {
+  width: 100%;
+  text-align: right;
+  margin: 10px 0;
+}
+
+.btn button {
+  background-color: #00b686;
+  padding: 5px 15px;
+  border: none;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.btn button:hover{
+  cursor: pointer;
+  background-color: #03c08e;
+}
+
+.btn button:focus {
+  outline: none;
+}
